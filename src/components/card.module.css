@@ -1,0 +1,93 @@
+p {
+  margin: 0%;
+}
+.container {
+  height: 50em;
+  width: 85em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.header {
+  /* height: 9em; */
+  width: 36em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 10px;
+  color: hsl(229, 6%, 66%);
+  word-spacing: 2px;
+}
+.firstLine {
+  font-weight: 300;
+  font-size: 25px;
+}
+.bold {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0.25em;
+  color: hsl(234, 12%, 34%);
+}
+.txt {
+  text-align: center;
+}
+.cardContainer {
+  height: 35em;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+.card {
+  height: 13.5em;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  box-shadow: 0px 5px 9px 0px #add2f06e;
+  border-radius: 5px;
+}
+.card > img {
+  height: 4em;
+  width: 4em;
+  margin-right: 1.5em;
+  align-self: flex-end;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-start;
+  color: hsl(234, 12%, 34%);
+  /* margin-left: 1em; */
+}
+.details {
+  align-self: flex-start;
+  /* margin-left: 1em; */
+  color: hsl(234, 12%, 34%);
+  font-size: 12px;
+  width: 18em;
+  line-height: 1.5em;
+}
+.dataHolder {
+  width: 18em;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+}
+.cardGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
