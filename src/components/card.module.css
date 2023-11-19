@@ -94,13 +94,13 @@ p {
 
 @media (width<=400px) {
   :root {
-    overflow: scroll !important;
+    overflow-y: scroll !important;
   }
   .container {
-    height: auto;
+    height: 75em;
     width: auto;
     margin-top: 1em;
-    gap: 2em;
+    /* gap: 2em; */
   }
   .txt {
     width: 30em;
@@ -111,6 +111,7 @@ p {
     /* width: 15em; */
   }
   .cardContainer {
+    margin-top: 1em;
     height: auto;
     width: auto;
     flex-direction: column;
