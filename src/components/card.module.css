@@ -91,3 +91,25 @@ p {
   align-items: center;
   gap: 2em;
 }
+
+@media (width<=400px) {
+  .container {
+    height: auto;
+    width: auto;
+    margin-top: 1em;
+    gap: 2em;
+  }
+  .txt {
+    width: 30em;
+    text-wrap: balance;
+  }
+  .card {
+    /* height: 10.5; */
+    /* width: 15em; */
+  }
+  .cardContainer {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+}
