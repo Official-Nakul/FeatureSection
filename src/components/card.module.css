@@ -93,6 +93,9 @@ p {
 }
 
 @media (width<=400px) {
+  :root {
+    overflow-y: scroll;
+  }
   .container {
     height: auto;
     width: auto;
